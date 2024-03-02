@@ -13,6 +13,7 @@
 .site-title {
   @include relative-font-size(2.5);
   font-family: $base-font-family;
+  font-weight: $base-font-weight * 0.5;
   line-height: $base-line-height * $base-font-size * 2.25;
   margin-bottom: 0;
   float: left;
@@ -202,7 +203,9 @@
 }
 
 .post-meta {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: $small-font-size;
+  font-weight: $small-font-weight;
   color: $grey-color;
 }
 
@@ -224,7 +227,7 @@
 
 .post-title {
   display: inline-block;
-  @include relative-font-size(1.75);
+  @include relative-font-size(1.5);
   line-height: 1;
 
   @include media-query($on-laptop) {
