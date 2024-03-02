@@ -115,7 +115,7 @@
 }
 
 .footer-heading {
-  @include relative-font-size(1.125);
+  @include relative-font-size(0.9375);
   margin-bottom: $spacing-unit / 2;
 }
 
@@ -259,3 +259,6 @@
     }
   }
 }
+
+.rss-subscribe {font-size: $small-font-size;}
+.colophon  {font-size: $small-font-size;}
